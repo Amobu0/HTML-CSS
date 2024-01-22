@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <!--
+      날짜 : 24/01/22
+      이름 : 송상도
+      내용 : HTML Table 실습하기
+    -->
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        Table 제목
+      </caption>
+      <tr>
+        <th>첫번쨰 칼럼</th>
+        <th>두번쨰 칼럼</th>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>D</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <caption>
+        Table 병합
+      </caption>
+      <tr>
+        <th>1번쨰 칼럼</th>
+        <th>2번쨰 칼럼</th>
+        <th>3번쨰 칼럼</th>
+        <th>4번쨰 칼럼</th>
+        <th>5번쨰 칼럼</th>
+      </tr>
+      <tr>
+        <td colspan="2">1*1</td>
+        <td rowspan="2">1*3</td>
+        <td>1*4</td>
+        <td rowspan="5">1*5</td>
+      </tr>
+      <tr>
+        <td>2*1</td>
+        <td>2*2</td>
+        <td>2*4</td>
+      </tr>
+      <tr>
+        <td>3*1</td>
+        <td>3*2</td>
+        <td>3*3</td>
+        <td>3*4</td>
+      </tr>
+      <tr>
+        <td>4*1</td>
+        <td>4*2</td>
+        <td>4*3</td>
+        <td>4*4</td>
+      </tr>
+      <tr>
+        <td>5*1</td>
+        <td>5*2</td>
+        <td>5*3</td>
+        <td>5*4</td>
+      </tr>
+    </table>
+  </body>
+</html>
